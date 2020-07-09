@@ -1,0 +1,89 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #d5d1d1;
+}
+#container1{
+	background-color: white; 
+}
+
+#container1 h2{
+    margin-left: 14px;
+    padding: 5px 0px 5px 0px;
+    font-family: 'Fondamento',cursive;
+}
+#container2{
+	position: sticky;
+	top: 0px;
+	background-color: white;
+	box-shadow: 0px 5px 5px #353535; 
+}
+#container2 ul{
+	display: inline-block;
+	margin-left: 14px;
+	font-family:'Fondamento',cursive;
+}
+#container2 ul li{
+	display:inline-block;
+	margin: 10px 50px 10px 2px; 
+ }
+#container2 ul li a{
+	text-decoration: none;
+	color-black;
+}
+
+#container2 ul li a:hover{
+	cursor: pointer;
+	color: #098024;
+}
+#container3{
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#container3-child1{
+width: 60%;
+background-color: white;
+padding: 50px;
+text-align: justify;
+height: 1500px;
+overflow-y: scroll;
+font-family: 'Ubuntu' ,sans-serif;
+border: 2px solid white;
+border-radius: 5px;
+
+#container3-child1 h3{
+    text-align: center;
+}
+
+#container3-child2{
+    display: flex;
+    align-items: flex-end;
+    width: 27%;
+    height: 350px;
+    background-color: white;
+    margin-left: 10px;
+    position: sticky;
+    top: 90px;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+
+#container3-child2 button{
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color:green;
+    padding: 10px;
+}
+
+#container3-child2 button:hover{
+    cursor: pointer;
+    background-color:  #12a734 ;
+    background-position:bottom;
+}
